@@ -6,18 +6,14 @@
     },
     "requirePaddingNewlinesInBlocks": true,
     "requireSpacesInsideObjectBrackets": "all",
-    "requireSpacesInsideBrackets": {
-        "allExcept": [ "[", "]" ]
-    },
+    "requireSpacesInsideArrayBrackets": "allButNested",
     "requireSpaceBeforeBlockStatements": true,
-    "requireSpacesInForStatement": true,
     "disallowKeywords": [ "with" ],
     "requireLineFeedAtFileEnd": true,
     "validateLineBreaks": "LF",
     "validateIndentation": "\t",
 
     "requireSpaceAfterPrefixUnaryOperators": ["++", "--"],
-    "requireSpaceBetweenArguments": true,
     "requireSpaceBeforePostfixUnaryOperators": ["++", "--"],
     "requireSpaceBeforeBinaryOperators": [ "+", "-", "/", "*", "=", "==", "===", "!=", "!==", ">", ">=", "<", "<=" ],
     "requireSpaceAfterBinaryOperators": [ "+", "-", "/", "*", "=", "==", "===", "!=", "!==", ">", ">=", "<", "<=" ],

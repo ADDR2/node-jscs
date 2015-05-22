@@ -10,11 +10,10 @@
     ],
     "requireOperatorBeforeLineBreak": true,
     "requireParenthesesAroundIIFE": true,
+    "requireMultipleVarDecl": "onevar",
     "requireCommaBeforeLineBreak": true,
     "requireCamelCaseOrUpperCaseIdentifiers": true,
-    "requireDotNotation": "except_snake_case",
-    "requireSpacesInForStatement": true,
-    "requireSpaceBetweenArguments": true,
+    "requireDotNotation": true,
     "maximumLineLength": {
         "value": 100,
         "tabSize": 4,
@@ -32,7 +31,6 @@
     "requireSpacesInFunctionExpression": {
         "beforeOpeningCurlyBrace": true
     },
-    "requireSpacesInsideParentheses": "all",
     "requireSpaceAfterKeywords": [
         "if",
         "else",
@@ -45,8 +43,7 @@
         "catch"
     ],
     "requireSpacesInsideObjectBrackets": "all",
-    "requireSpacesInsideBrackets": true,
-    "requireSemicolons": true,
+    "requireSpacesInsideArrayBrackets": "all",
     "requireSpacesInConditionalExpression": true,
     "requireSpaceAfterBinaryOperators": true,
     "requireLineFeedAtFileEnd": true,
@@ -64,7 +61,6 @@
     "requireSpacesInNamedFunctionExpression": {
         "beforeOpeningCurlyBrace": true
     },
-    "requirePaddingNewLinesBeforeLineComments": true,
     "validateLineBreaks": "LF",
 
     "disallowKeywords": [ "with" ],
